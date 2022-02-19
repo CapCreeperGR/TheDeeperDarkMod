@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_rh",
+  "textures": {
+    "top": "tdd:block/sculk_brick_door_top",
+    "bottom": "tdd:block/sculk_brick_door_bottom"
+  }
+}

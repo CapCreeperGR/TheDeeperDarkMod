@@ -1,0 +1,8 @@
+{
+  "config": {
+    "start_pool": "tdd:abandoned_castle",
+    "size": 7
+  },
+  "type": "minecraft:village"
+
+}

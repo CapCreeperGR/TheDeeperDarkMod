@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "tdd:block/sculk_bricks",
+    "top": "tdd:block/sculk_bricks",
+    "side": "tdd:block/sculk_bricks"
+  }
+}

@@ -1,8 +1,22 @@
 {
   "item.tdd.warden_heart": "Warden Heart",
   "item.tdd.deeper_dark_igniter": "Deeper Dark Igniter",
+  "item.tdd.sculk_crystal": "Sculk Crystal",
+
+  "item.tdd.sculk_crystal_sword": "Sculk Crystal Sword",
+  "item.tdd.sculk_crystal_pickaxe": "Sculk Crystal Pickaxe",
+  "item.tdd.sculk_crystal_axe": "Sculk Crystal Axe",
+  "item.tdd.sculk_crystal_shovel": "Sculk Crystal Shovel",
+  "item.tdd.sculk_crystal_hoe": "Sculk Crystal Hoe",
+
+  "item.tdd.sculk_crystal_helmet": "Sculk Crystal Helmet",
+  "item.tdd.sculk_crystal_chestplate": "Sculk Crystal Chestplate",
+  "item.tdd.sculk_crystal_leggings": "Sculk Crystal Leggings",
+  "item.tdd.sculk_crystal_boots": "Sculk Crystal Boots",
+
   "block.tdd.sculk_bricks": "Sculk Bricks",
   "block.tdd.sculk_brick_stairs": "Sculk Brick Stairs",
   "block.tdd.sculk_brick_slab": "Sculk Brick Slab",
-  "block.tdd.sculk_brick_door": "Sculk Brick Door"
+  "block.tdd.sculk_brick_door": "Sculk Brick Door",
+  "block.tdd.sculk_crystal_ore": "Sculk Crystal Ore"
 }

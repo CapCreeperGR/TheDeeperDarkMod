@@ -1,9 +1,9 @@
-package com.capcreepergr.tdd.block;
+package com.capcreepergr.tdd.block.custom;
 
 import net.minecraft.block.DoorBlock;
 
 public class ModDoorBlock extends DoorBlock {
-    protected ModDoorBlock(Settings settings) {
+    public ModDoorBlock(Settings settings) {
         super(settings);
     }
 }

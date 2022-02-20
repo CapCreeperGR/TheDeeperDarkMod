@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tdd:item/sculk_crystal_chestplate"
+  }
+}

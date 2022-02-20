@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tdd:sculk_bricks",
+    "tdd:sculk_brick_slab",
+    "tdd:sculk_brick_stairs",
+    "tdd:sculk_brick_door",
+    "tdd:sculk_crystal_ore"
+  ]
+}

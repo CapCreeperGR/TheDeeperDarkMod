@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "tdd:item/sculk_crystal_sword"
+  }
+}

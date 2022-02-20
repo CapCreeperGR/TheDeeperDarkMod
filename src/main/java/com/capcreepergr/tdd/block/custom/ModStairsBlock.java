@@ -1,10 +1,10 @@
-package com.capcreepergr.tdd.block;
+package com.capcreepergr.tdd.block.custom;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.StairsBlock;
 
 public class ModStairsBlock extends StairsBlock {
-    protected ModStairsBlock(BlockState baseBlockState, Settings settings) {
+    public ModStairsBlock(BlockState baseBlockState, Settings settings) {
         super(baseBlockState, settings);
     }
 }

@@ -3,6 +3,7 @@ package com.capcreepergr.tdd.block;
 import com.capcreepergr.tdd.Main;
 import com.capcreepergr.tdd.block.custom.ModDoorBlock;
 import com.capcreepergr.tdd.block.custom.ModStairsBlock;
+import com.capcreepergr.tdd.item.ModItemGroups;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -16,15 +17,15 @@ public class ModBlocks {
 
     // SCULK BRICK BLOCKS
     public static final Block SCULK_BRICKS = registerBlock("sculk_bricks",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).resistance(6f).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).resistance(6f).requiresTool()), ModItemGroups.TDD_BLOCKS);
     public static final Block SCULK_BRICK_STAIR = registerBlock("sculk_brick_stairs",
-            new ModStairsBlock(ModBlocks.SCULK_BRICKS.getDefaultState(), FabricBlockSettings.of(Material.STONE).strength(1.5f).resistance(6f).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+            new ModStairsBlock(ModBlocks.SCULK_BRICKS.getDefaultState(), FabricBlockSettings.of(Material.STONE).strength(1.5f).resistance(6f).requiresTool()), ModItemGroups.TDD_BLOCKS);
     public static final Block SCULK_BRICK_SLAB = registerBlock("sculk_brick_slab",
-            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).resistance(6f).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(1.5f).resistance(6f).requiresTool()), ModItemGroups.TDD_BLOCKS);
     public static final Block SCULK_BRICK_DOOR = registerBlock("sculk_brick_door",
-            new ModDoorBlock(FabricBlockSettings.of(Material.STONE).nonOpaque().strength(1.5f).resistance(6f).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+            new ModDoorBlock(FabricBlockSettings.of(Material.STONE).nonOpaque().strength(1.5f).resistance(6f).requiresTool()), ModItemGroups.TDD_BLOCKS);
     public static final Block SCULK_CRYSTAL_ORE = registerBlock("sculk_crystal_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(3f).resistance(5f).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3f).resistance(5f).requiresTool()), ModItemGroups.TDD_BLOCKS);
 
     public static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name,block,group);

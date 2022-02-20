@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "TST",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_wool"
+    },
+    "T": {
+      "item": "tdd:sculk_crystal"
+    },
+    "S": {
+      "item": "tdd:warden_heart"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tdd:warden_staff",
+    "count": 1
+  }
+}

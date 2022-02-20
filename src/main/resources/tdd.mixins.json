@@ -4,6 +4,7 @@
   "package": "com.capcreepergr.tdd.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "EntityBypassEffectsMixin"
   ],
   "client": [
     "PlayerChangeDimensionMixin"

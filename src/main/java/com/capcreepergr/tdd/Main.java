@@ -1,18 +1,29 @@
 package com.capcreepergr.tdd;
 
 import com.capcreepergr.tdd.block.ModBlocks;
+import com.capcreepergr.tdd.item.ModItemGroups;
 import com.capcreepergr.tdd.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
+import net.fabricmc.fabric.api.event.server.ServerTickCallback;
+import net.fabricmc.fabric.api.event.world.WorldTickCallback;
 import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
 import net.minecraft.block.Blocks;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.nbt.NbtCompound;
 import net.minecraft.structure.rule.BlockMatchRuleTest;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.BuiltinRegistries;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.registry.RegistryKey;
+import net.minecraft.world.biome.Biome;
 import net.minecraft.world.dimension.DimensionOptions;
 import net.minecraft.world.gen.GenerationStep;
 import net.minecraft.world.gen.YOffset;
@@ -60,5 +71,16 @@ public class Main implements ModInitializer {
 				.forcedSize(20,6)
 				.onlyLightInOverworld()
 				.registerPortal();
+
+		WorldTickCallback.EVENT.register((world) -> {
+			if (world.getRegistryKey().getValue().toString().equalsIgnoreCase("tdd:deeper_dark")) {
+				for (PlayerEntity player : world.getPlayers()) {
+					if (player.getInventory().getMainHandStack().getItem().equals(ModItems.WARDEN_STAFF) || player.getInventory().offHand.get(0).getItem().equals(ModItems.WARDEN_STAFF)) {
+						player.removeStatusEffect(StatusEffects.DARKNESS);
+					}
+					if (!player.getInventory().getMainHandStack().getItem().equals(ModItems.WARDEN_STAFF) && !player.getInventory().offHand.get(0).getItem().equals(ModItems.WARDEN_STAFF) && !player.hasStatusEffect(StatusEffects.DARKNESS)) player.setStatusEffect(new StatusEffectInstance(StatusEffects.DARKNESS, 20*999999, 1, true, false), player);
+				}
+			}
+		});
 	}
 }

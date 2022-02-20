@@ -1,7 +1,13 @@
 {
+  "itemGroup.tdd.tdd_blocks": "Deeper Dark Blocks",
+  "itemGroup.tdd.tdd_items": "Deeper Dark Items",
+  "itemGroup.tdd.tdd_tools": "Deeper Dark Tools",
+  "itemGroup.tdd.tdd_armor": "Deeper Dark Armor",
+
   "item.tdd.warden_heart": "Warden Heart",
   "item.tdd.deeper_dark_igniter": "Deeper Dark Igniter",
   "item.tdd.sculk_crystal": "Sculk Crystal",
+  "item.tdd.warden_staff": "Warden Staff",
 
   "item.tdd.sculk_crystal_sword": "Sculk Crystal Sword",
   "item.tdd.sculk_crystal_pickaxe": "Sculk Crystal Pickaxe",

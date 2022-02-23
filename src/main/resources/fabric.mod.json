@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "com.capcreepergr.tdd.Main"
+    ],
+    "client": [
+      "com.capcreepergr.tdd.Client"
     ]
   },
   "mixins": [

@@ -2,7 +2,7 @@
   "temperature": 0.8,
   "downfall": 0.4,
   "precipitation": "none",
-  "category": "underground",
+  "category": "none",
   "creature_spawn_probability": 0.1,
   "effects": {
     "sky_color": 0,
@@ -16,12 +16,26 @@
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
+    },
+    "music": {
+      "sound": "tdd:deeper_dark_sound_event",
+      "min_delay": 12000,
+      "max_delay": 12000,
+      "replace_current_music": true
     }
   },
   "spawners": {
     "creature": [
       {
         "type": "minecraft:warden",
+        "weight": 2,
+        "minCount": 0,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+      {
+        "type": "tdd:lost_one",
         "weight": 1,
         "minCount": 0,
         "maxCount": 1

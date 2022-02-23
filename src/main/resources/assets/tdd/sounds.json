@@ -1,0 +1,12 @@
+{
+  "deeper_dark_sound_event": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "tdd:music/deeper_dark_music",
+        "weigh": 1,
+        "stream": true
+      }
+    ]
+  }
+}

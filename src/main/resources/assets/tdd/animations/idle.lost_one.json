@@ -1,0 +1,56 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle.lost_one": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"LeftArm": {
+					"rotation": {
+						"0.0": {
+							"vector": [7.5, 0, 0]
+						},
+						"1.5": {
+							"vector": [7.47178, 0.65182, -4.95744]
+						},
+						"3.0": {
+							"vector": [7.5, 0, 0]
+						}
+					},
+					"position": {
+						"vector": [0, 0, -2]
+					}
+				},
+				"Body": {
+					"rotation": {
+						"vector": [7.5, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 1]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"0.0": {
+							"vector": [7.5, 0, 0]
+						},
+						"1.5": {
+							"vector": [7.47178, -0.65182, 4.95744]
+						},
+						"3.0": {
+							"vector": [7.5, 0, 0]
+						}
+					},
+					"position": {
+						"vector": [0, 0, -2]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [5, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

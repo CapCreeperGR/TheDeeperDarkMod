@@ -8,6 +8,8 @@
   "item.tdd.deeper_dark_igniter": "Deeper Dark Igniter",
   "item.tdd.sculk_crystal": "Sculk Crystal",
   "item.tdd.warden_staff": "Warden Staff",
+  "item.tdd.lost_one_spawn_egg": "Lost One Spawn Egg",
+  "item.tdd.orb_of_darkness": "Orb of Darkness",
 
   "item.tdd.sculk_crystal_sword": "Sculk Crystal Sword",
   "item.tdd.sculk_crystal_pickaxe": "Sculk Crystal Pickaxe",
@@ -24,5 +26,7 @@
   "block.tdd.sculk_brick_stairs": "Sculk Brick Stairs",
   "block.tdd.sculk_brick_slab": "Sculk Brick Slab",
   "block.tdd.sculk_brick_door": "Sculk Brick Door",
-  "block.tdd.sculk_crystal_ore": "Sculk Crystal Ore"
+  "block.tdd.sculk_crystal_ore": "Sculk Crystal Ore",
+
+  "entity.tdd.lost_one": "Lost One"
 }
